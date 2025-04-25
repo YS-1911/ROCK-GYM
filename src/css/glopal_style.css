@@ -1,0 +1,60 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: var(--color--dark);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color--accent-16);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color--accent);
+    border-radius: 4px;
+}
+
+:root {
+    --color--dark: #071118;
+    --color--light: #f5f6f6;
+    --color--light-70: #f5f6f6b3;
+    --color--accent-8: #7cdcfa14;
+    --color--light-10\<deleted\|variable-e0a387b9-84e7-2df2-9964-e802083924b9\>: #faf4eb33;
+    --color--brand: #7fffd1;
+    --_size---radius--small: .75rem;
+    --color--brand-8: #7fffd114;
+    --color--accent: #7cdcfa;
+    --color--accent-16: #7cdcfa29;
+    --color--transparent: #fff0;
+    --color--dark-secondary: #0c161df2;
+    --color--dark-tertiary: #0d5d68;
+    --_size---radius--round: 100vw;
+    --_typography---font-size--text-small: .875rem;
+    --_typography---font-size--h1: 3.5rem;
+    --_typography---font-size--h2: 2.5rem;
+    --_typography---line-height--1-1em: 1.2em;
+    --_typography---line-height--1: 1.3em;
+    --_typography---letter-spacing--0-02em: -.02em;
+    --_typography---font-size--text-main: 1.125rem;
+    --_size---padding--small: 4rem;
+    --_size---space--medium: 1rem;
+    --_size---radius--large: 3rem;
+    --_size---radius--medium: 2rem;
+    --_size---space--huge: 3.5rem;
+    --_size---space--extra-large: 2.5rem;
+}
