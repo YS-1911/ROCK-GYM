@@ -1,0 +1,207 @@
+@import url("glopal_style.css");
+
+/* article */
+.article {
+  padding: 0 20px;
+  margin-top: 120px;
+}
+.text_article h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color--light);
+}
+
+.hidden {
+    display: none;
+}
+
+.filter-btn-article.active {
+    background-color: var(--color--accent);
+    color: var(--color--dark);
+    border: 1px solid var(--color--accent);
+    border-radius: var(--_size---radius--round);
+}
+
+.filter-article {
+    border: 1px solid var(--color--accent-8);
+    border-radius: var(--_size---radius--round);
+    background-color: var(--color--accent-8);
+    padding: .25rem;
+    overflow: hidden;
+}
+
+
+.filter-article button {
+
+    color: var(--color--light);
+    font-size: var(--_typography---font-size--text-small);
+    font-weight: 600;
+
+}
+
+.filter-article a:hover {
+    color: var(--color--dark);
+}
+
+@media (max-width: 377px) {
+    
+    .filter-article {
+        padding: 0 !important;
+    }
+    .filter-article button {
+        font-size: .7rem;
+    }
+
+}
+/* ? -------------articles------------------- */
+
+.articles {
+    margin-top: 150px;
+    padding: 0 1.5rem;
+}
+.card_main_article_container h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color--light);
+}
+.title_article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 960px) {
+    .articles {
+        margin-top: 50px;
+
+    }
+
+    .title_article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.card_main_article_container {
+    padding: var(--_size---space--extra-small);
+    border: 1px solid var(--color--accent-8);
+    border-radius: var(--_size---radius--medium);
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_main_article_container .card {
+    background-color: var(--color--dark);
+    height: 100%;
+    border: none;
+}
+
+.card_main_article_container .card img {
+    border-radius: var(--_size---radius--medium);
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card_main_article_container .card p {
+    color: var(--color--light);
+}
+
+.back_blur_article {
+    z-index: 0;
+    background-image: linear-gradient(156deg, var(--color--transparent), var(--color--dark-tertiary));
+    opacity: .16;
+    pointer-events: none;
+    position: absolute;
+    inset: 0%;
+}
+
+.card_main_article_container .card:hover {
+    background-image: linear-gradient(310deg, var(--color--transparent), var(--color--dark-tertiary));
+    border-radius: var(--_size---radius--medium);
+    
+}
+
+.btn2 {
+    border: 1px solid var(--color--brand);
+    width: 120px;
+    height: 40px;
+    background-color: var(--color--brand-8);
+    color: var(--color--light);
+    border-radius: var(--_size---radius--small);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn2 span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+    font-size: var(--_typography---font-size--text-main);
+    font-weight: 600;
+}
+
+.btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.btn2:hover .btn-text-one {
+    top: -100%;
+}
+
+.btn2:hover .btn-text-two {
+    top: 50%;
+}
+
+.modal-content {
+    border-radius: var(--_size---radius--medium);
+    border: 1px solid var(--color--accent-8);
+    background-color: var(--color--dark);
+}
+
+
+.modal {
+    z-index: 9999 !important;
+}
+
+.modal-header .modal-title {
+    color: var(--color--light);
+    font-weight: 600;
+}
+
+.modal-footer {
+    direction: ltr !important;
+}
+
+.modal-body {
+    color: var(--color--light);
+}
+
+.modal-body img {
+    border-radius: var(--_size---radius--medium);
+}
+

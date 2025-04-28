@@ -318,7 +318,7 @@ const Home = () => {
                                 className="carousel slide"
                                 data-bs-ride="carousel"
                                 data-aos="fade-up"
-                                data-aos-duration="1000"
+                                data-aos-duration="2000"
                             >
                                 <div className="carousel-inner">
                                     <div
@@ -598,11 +598,11 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center my-3">
+                                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center my-3" >
                                     <div className="card_main_article">
                                         <div className="card" style={{ width: "100%" }}>
                                             <img
-                                                src="image/food.jpg"
+                                                src="image/food2.jpg"
                                                 className="card-img-top "
                                                 alt="..."
                                                 loading="lazy"
@@ -648,7 +648,7 @@ const Home = () => {
                                                 <div className="modal-body">
                                                     <p>
                                                         <img
-                                                            src="image/food.jpg"
+                                                            src="image/food2.jpg"
                                                             className="w-100 img-fluid"
                                                             alt=""
                                                         />

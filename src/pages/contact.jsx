@@ -14,11 +14,11 @@ const Contact = () => {
                 <section className="contact">
                     <div className="container">
                         <div className="text_contact ">
-                            <div className="text-center d-flex justify-content-center align-items-center">
+                            <div className="text-center d-flex justify-content-center align-items-center" data-aos="fade-up">
                                 <div className="marker mx-2" />
                                 <h5 className="text-center">تواصل معنا</h5>
                             </div>
-                            <h3 className="d-flex justify-content-center align-items-center mt-2">جاهز تبدأ رحلتك الرياضية !</h3>
+                            <h3 className="d-flex justify-content-center align-items-center mt-2" data-aos="fade-up" data-aos-duration="2000">جاهز تبدأ رحلتك الرياضية !</h3>
                         </div>
                         <div
                             className="row g-4 align-items-stretch my-lg-5 my-md-5 my-3"
@@ -101,7 +101,6 @@ const Contact = () => {
                     </div>
                 </section>
             </>
-
             <Footer />
         </div>
     );

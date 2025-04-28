@@ -6,7 +6,6 @@ import "../css/programing.css";
 import { NavLink , Link } from "react-router";
 
 
-
 const Programing = () => {
     useEffect(() => {
         const filterButtons = document.querySelectorAll(".filter-btn");
@@ -45,11 +44,11 @@ const Programing = () => {
                 <section className="programing">
                     <div className="container">
                         <div className="text_programing d-flex justify-content-center align-items-center flex-column">
-                            <div className="text-center d-flex justify-content-center align-items-center">
+                            <div className="text-center d-flex justify-content-center align-items-center" data-aos="fade-up">
                                 <div className="marker mx-2" />
                                 <h5 className="text-center">برامج التدريب</h5>
                             </div>
-                            <h2 className="text-center mt-2">أسعار برامج تدريب ROCK GYM</h2>
+                            <h2 className="text-center mt-2" data-aos="fade-up" data-aos-duration="2000">أسعار برامج تدريب ROCK GYM</h2>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center align-items-center mx-auto my-3">
                             <div className="filter-section my-3 text-center">
@@ -287,6 +286,8 @@ const Programing = () => {
                             id="carouselExampleInterval"
                             className="carousel slide"
                             data-bs-ride="carousel"
+                            data-aos="fade-up"
+                            data-aos-duration="2000"
                         >
                             <div className="carousel-inner">
                                 <div className="carousel-item active" data-bs-interval={10000}>
