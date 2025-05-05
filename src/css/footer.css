@@ -1,4 +1,14 @@
 /* ? -------------footer------------------- */
+
+.link_important_footer{
+    color: var( --color--accent);
+}
+.link_footer{
+    color: var(--color--light);
+}
+.link_footer:hover{
+    color: var(--color--brand);
+}
 .social_media a {
     aspect-ratio: 1;
     border: 1px solid var(--color--transparent);

@@ -116,79 +116,71 @@ const Home = () => {
                         />
                     </div>
                 </section>
-                {/* ? Benefits */}
+                {/* ? time work */}
                 <section className="benefits my-5 bt-5">
-                    <div className="container">
-                        <div className="title_benefits text-center" data-aos="fade-up">
-                            <div className="d-flex justify-content-center align-items-center mb-3" >
-                                <div className="marker" />
-                                <h4 className="mx-2">المميزات</h4>
-                            </div>
-                            <h3>كل ما تحتاجه لتحقيق أهدافك</h3>
-                        </div>
-                        <div className="row mt-4 d-flex justify-content-center align-items-center">
-                            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center my-3">
-                                <div className="benefits_item px-5 py-4 d-flex flex-column justify-content-center align-items-center">
-                                    <div className="icon_benefits">
-                                        <img
-                                            src="image/67b1cb393fcfacb48adec00f_icon-chat.svg"
-                                            alt=""
-                                            loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="title_benefits_item">
-                                        <h4 className="text-center my-3">ساعات عمل مرنة</h4>
-                                        <p>
-                                            صالة مفتوحة على مدار اليوم لتناسب جدولك الشخصي والمهني
-                                        </p>
-                                    </div>
-                                    <div className="back_blur" />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center my-3">
-                                <div className="benefits_item px-5 py-4 d-flex flex-column justify-content-center align-items-center">
-                                    <div className="icon_benefits">
-                                        <img
-                                            src="image/67b1cb397fe8153789a2b2b5_icon-barbell.svg"
-                                            alt=""
-                                            loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="title_benefits_item">
-                                        <h4 className="text-center my-3">معدات حديثة ومتطورة </h4>
-                                        <p>أجهزة تمارين القوة والكارديو من أفضل الماركات .</p>
-                                    </div>
-                                    <div className="back_blur" />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center  my-3">
-                                <div className="benefits_item px-5 py-4 d-flex flex-column justify-content-center align-items-center">
-                                    <div className="icon_benefits">
-                                        <img
-                                            src="image/67b1cb39056bd817f16a69a0_icon-link.svg"
-                                            alt=""
-                                            loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="title_benefits_item">
-                                        <h4 className="text-center my-3">تدريبات أذكى</h4>
-                                        <p>
-                                            صُممت برامجنا التدريبية بناءً على أحدث الأساليب العلمية
-                                            لرفع كفاءتك
-                                        </p>
-                                    </div>
-                                    <div className="back_blur" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="btn_ben text-center mt-4 d-flex justify-content-center">
-                            <NavLink to="/features" className="btn1 text-decoration-none ">
-                                <span className="btn-text-one">عرض جميع المميزات</span>
-                                <span className="btn-text-two">عرض جميع المميزات</span>
-                            </NavLink>
-                        </div>
+    <div className="container">
+        <div className="title_benefits text-center" data-aos="fade-up">
+            <div className="d-flex justify-content-center align-items-center mb-3">
+                <div className="marker" />
+                <h4 className="mx-2">مواعيد العمل</h4>
+            </div>
+            <h3>جدول فترات الدخول للرجال والنساء</h3>
+        </div>
+        <div className="row mt-4 d-flex justify-content-center align-items-center">
+            {/* فترة الرجال */}
+            <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center my-3">
+                <div className="benefits_item_work  px-5 py-4 d-flex flex-column justify-content-center align-items-center">
+                    <div className="icon_benefits">
+                        <img
+                            src="../../image/gender-male.svg"
+                            alt="رجال"
+                            loading="lazy"
+                        />
                     </div>
-                </section>
+                    <div className="title_benefits_item">
+                        <h4 className="text-center my-3">فترة الرجال</h4>
+                        <p className="text-center">
+                            يوميًا من <strong>5:00 عصرا</strong> حتى <strong>11:30 مساءً</strong><br />
+                            استمتع بتجهيزات حديثة وأجواء محفزة للتمرين. <br />
+                            مع مساحات واسعة ومعدات متطورة<br />
+                            بيئة رياضية مريحة وممتعه مخصصة للرجال فقط.
+                        </p>
+                    </div>
+                    <div className="back_blur" />
+                </div>
+            </div>
+            {/* فترة النساء */}
+            <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center my-3">
+                <div className="benefits_item_work  px-5 py-4 d-flex flex-column justify-content-center align-items-center">
+                    <div className="icon_benefits">
+                        <img
+                            src="image/gender-female.svg"
+                            alt="نساء"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div className="title_benefits_item">
+                        <h4 className="text-center my-3">فترة النساء</h4>
+                        <p className="text-center">
+                            يوميًا من <strong>1:00 ظهرا</strong> حتى <strong>4:00 عصرا</strong><br />
+                            اضافه  الي السبت والاثنين و الاربعاء من <br />
+                            <strong>10:00 صباحا</strong> حتى <strong>12:00 ظهرا</strong><br />
+                            بيئة رياضية مريحة وآمنة، مخصصة للسيدات فقط.
+                        </p>
+                    </div>
+                    <div className="back_blur" />
+                </div>
+            </div>
+        </div>
+        <div className="btn_ben text-center mt-4 d-flex justify-content-center">
+            <NavLink to="/about" className="btn1 text-decoration-none">
+                <span className="btn-text-one">مزيد من التفاصيل</span>
+                <span className="btn-text-two">مزيد من التفاصيل</span>
+            </NavLink>
+        </div>
+    </div>
+</section> 
+
                 {/* ? How it works */}
                 <section className="how_it_works my-5">
                     <div className="container">
@@ -266,8 +258,8 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center  order-1 order-lg-2 order-md-2"
-                            data-aos="zoom-in"
-                            data-aos-duration="1000">
+                                data-aos="zoom-in"
+                                data-aos-duration="1000">
                                 <div className="image_how_works">
                                     <img
                                         src="image/logo-cut.jpeg"
@@ -917,22 +909,26 @@ const Home = () => {
                     <section className="upgrade">
                         <div className="upgrade_your_fitness m-lg-5 m-md-5 m-sm-3">
                             <div className="container d-flex flex-column justify-content-center align-items-center"
-                            data-aos="fade-up" data-aos-duration="1000">
-                                <div className="text_upgrade">
-                                    <h2 className="text-center">ابدا الآن بتحسين صحتك</h2>
+                                data-aos="fade-up" data-aos-duration="1000">
+                                <div className="text_upgrade ">
+                                    {/* <h2 className="text-center">ابدا الآن بتحسين صحتك</h2> */}
+                                    <p className="text-center my-3">
+                                        تواصل مع مدربينا واحصل علي برنامج تدريبي و غذائي يناسبك
+                                    </p>
                                 </div>
                                 <div className="btn_ben text-center mt-4 ">
                                     <NavLink
-                                        to="/programing"
+                                        to="/coaches"
                                         className="btn1 text-decoration-none d-flex justify-content-center align-items-center"
                                     >
-                                        <span className="btn-text-one">اختر برنامجك الآن</span>
-                                        <span className="btn-text-two">اختر برنامجك الآن</span>
+                                        <span className="btn-text-one">تواصل معهم الآن</span>
+                                        <span className="btn-text-two">تواصل معهم الآن</span>
                                     </NavLink>
                                 </div>
                             </div>
+                            <div className="back_blur" />
                         </div>
-                        <div className="back_blur" />
+
                     </section>
                     {/* footer */}
                     <Footer />

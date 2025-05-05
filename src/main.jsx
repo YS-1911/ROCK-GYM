@@ -13,8 +13,8 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Programing from './pages/programing.jsx';
 import Article from './pages/article.jsx';
-import Features from './pages/Features.jsx';
 import Contact from './pages/contact.jsx';
+import Coaches from './pages/Coaches.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,8 +38,8 @@ const router = createBrowserRouter([
     errorElement: <div>404</div>,
   },
   {
-    path: "/features",
-    element: <Features />,
+    path: "/coaches",
+    element: <Coaches />,
     errorElement: <div>404</div>,
   },
   {

@@ -30,8 +30,8 @@ const Nav = () => {
                     >
                         <ul className="navbar-nav mx-auto ">
                             <li className="nav-item d-flex justify-content-center">
-                                <NavLink className="nav-link" to="/features">
-                                    المميزات
+                                <NavLink className="nav-link" to="/coaches">
+                                    المدربين
                                 </NavLink>
                             </li>
                             <li className="nav-item d-flex justify-content-center">

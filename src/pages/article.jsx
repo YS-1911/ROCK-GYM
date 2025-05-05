@@ -1615,6 +1615,7 @@ const Article = () => {
 
                 </div>
             </section>
+            <Footer/>
         </div>
     );
 };

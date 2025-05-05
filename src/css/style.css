@@ -5,11 +5,13 @@
     border-radius: none !important;
     border: none !important;
 }
-.header .container{
+
+.header .container {
     border: none !important;
     border-radius: none !important;
 }
-.header_text{
+
+.header_text {
     border: none !important;
     border-radius: none !important;
 }
@@ -203,17 +205,18 @@ h5,
     color: var(--color--light);
 }
 
-.benefits_item {
+.benefits_item , .benefits_item_work {
     padding: var(--_size---space--extra-large) var(--_size---space--large);
     border: 1px solid var(--color--accent-8);
     border-radius: var(--_size---radius--medium);
     text-align: center;
     flex-flow: column;
     justify-content: center;
-    max-width: 400px;
+    /* max-width: 400px; */
     min-height: 200px;
     position: relative;
 }
+
 
 .back_blur {
     z-index: 0;
@@ -304,6 +307,14 @@ h5,
     line-height: var(--_typography---line-height--1-5em);
 }
 
+.text_upgrade p {
+    font-size: 2.2rem;
+    color: var(--color--light);
+    font-weight: 700;
+    max-width: 700px;
+}
+
+
 @media (max-width: 960px) {
     .text_upgrade h2 {
         font-size: 1.5rem !important;
@@ -376,6 +387,7 @@ h5,
     position: relative;
     overflow: hidden;
 }
+
 /* ? -------------customers------------------- */
 .customers {
     padding: var(--_size---padding--small);
@@ -508,7 +520,7 @@ h5,
 .card_main_article .card:hover {
     background-image: linear-gradient(310deg, var(--color--transparent), var(--color--dark-tertiary));
     border-radius: var(--_size---radius--medium);
-    
+
 }
 
 .btn2 {
@@ -584,4 +596,3 @@ h5,
 .modal-body img {
     border-radius: var(--_size---radius--medium);
 }
-
