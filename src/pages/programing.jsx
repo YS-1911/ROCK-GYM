@@ -7,6 +7,7 @@ import { NavLink , Link } from "react-router";
 
 
 const Programing = () => {
+   
     useEffect(() => {
         const filterButtons = document.querySelectorAll(".filter-btn");
         const projectCards = document.querySelectorAll(".project-card");
@@ -276,7 +277,7 @@ const Programing = () => {
                     </div>
                 </section>
                 {/* ? customers  */}
-                <div className="container">
+                <div className="container d-flex justify-content-center align-items-center ">
                     <div className="customers_text customers">
                         <div className="d-flex justify-content-center align-items-center mb-3">
                             <div className="marker marker_customers " />

@@ -140,7 +140,8 @@ const Footer = () => {
                     <div className="mx-3">
                         {" "}
                         © 2025 Copyright:
-                        <a className="text-white">RockGym</a>
+
+                         <span className="text-white fw-bold ms-2">RockGym</span>
                     </div>
                     <div className="mx-3">
                         <p>
