@@ -45,7 +45,7 @@ h2 {
 }
 
 .header_text p,
-.how_it_works p {
+.how_it_works p , .feater_headerd p{
     color: var(--color--light-70);
     font-size: var(--_typography---font-size--text-large);
     font-weight: 400;
@@ -184,6 +184,11 @@ h2 {
     width: .375rem;
 }
 
+.benefits {
+    margin: 150px 0;
+}
+
+
 .title_benefits h4,
 .text_how_work h4,
 h5,
@@ -258,7 +263,7 @@ h5,
     border: 1px solid var(--color--accent-16);
     background-color: var(--color--accent-8);
     position: relative;
-
+    border-radius: var(--_size---radius--small);
 }
 
 .image_how_works::before {
@@ -288,6 +293,12 @@ h5,
     border: 1px solid var(--color--accent-16);
     border-radius: var(--_size---radius--round);
     background-color: var(--color--accent-8);
+}
+.image_how_works video {
+    width: 100%;
+    height: 600px;
+    border-radius: var(--_size---radius--medium);
+    object-fit: cover;
 }
 
 /* ? -------------upgrade------------------- */

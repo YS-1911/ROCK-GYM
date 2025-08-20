@@ -125,7 +125,7 @@ const Article = () => {
                                         />
                                         <div className="d-flex flex-column">
                                             {article.modalContent.map((item) => (
-                                                <p className="p-none mt-2" key={item.index}>
+                                                <div className="p-none my-2" key={item.id || item.index || item.heading}>
                                                     {item.icon} - <strong>{item.heading}</strong>
 
                                                     <a href={item.link} className='mx-2'>{item.source}</a>
@@ -140,7 +140,7 @@ const Article = () => {
                                                     )}
                                                     <br />
 
-                                                </p>
+                                                </div>
                                             ))}
 
 

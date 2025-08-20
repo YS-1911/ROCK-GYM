@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <footer className="text-center text-lg-start text-white">
-            
+
                 {/* Section: Links  */}
                 <section className="pt-4">
                     <div className="container_fluid px-3 text-center text-md-start ">
@@ -141,7 +141,7 @@ const Footer = () => {
                         {" "}
                         © 2025 Copyright:
 
-                         <span className="text-white fw-bold ms-2">RockGym</span>
+                        <span className="text-white fw-bold ms-2">RockGym</span>
                     </div>
                     <div className="mx-3">
                         <p>
