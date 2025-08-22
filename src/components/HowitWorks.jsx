@@ -84,7 +84,7 @@ const HowitWorks = () => {
                             <div className="image_how_works">
                                 
                                 <video
-                                    src="../../image/video_rockgym.mp4"
+                                    src="video/video_rockgym.mp4"
                                     autoPlay
                                     loop
                                     muted
