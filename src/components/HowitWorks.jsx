@@ -89,8 +89,7 @@ const HowitWorks = () => {
                                     loop
                                     muted
                                     playsInline
-                                    loading="lazy"
-                                    preload="none"
+                                    
                                     className=" img-fluid object-cover"
                                 >
                                     متصفحك لا يدعم تشغيل الفيديو
