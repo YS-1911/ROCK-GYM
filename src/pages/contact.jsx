@@ -49,7 +49,7 @@ const Contact = () => {
                                         href="https://maps.app.goo.gl/zabssWiU2Y9KSdqR9"
                                         className="text-decoration-none"
                                     >
-                                    الدقهليه / السنبلاوين / كفرالروك
+                                        الدقهليه / السنبلاوين / كفرالروك
                                         <br />
                                         ارض السوق / امام معرض الغزالي للادوات المنزليه
                                         <br />
@@ -61,25 +61,25 @@ const Contact = () => {
                                             href="https://www.facebook.com/profile.php?id=100068888802339"
                                             className="text-white text-decoration-none"
                                         >
-                                            <i className="fab fa-facebook-f" />
+                                            <img src="../../image/facebook-f-brands-solid-full.svg" alt="" loading='lazy' />
                                         </a>
                                         <a
                                             href="https://www.instagram.com/mohmed.fouda9358"
                                             className="text-white me-4 text-decoration-none"
                                         >
-                                            <i className="fab fa-instagram" />
+                                            <img src="../../image/instagram-brands-solid-full.svg" alt="" loading='lazy' />
                                         </a>
                                         <a
                                             href="https://wa.me/+201090319905"
                                             className="text-white me-4 text-decoration-none"
                                         >
-                                            <i className="fab fa-whatsapp" />
+                                            <img src="../../image/whatsapp-brands-solid-full.svg" alt="" loading='lazy' />
                                         </a>
                                         <a
                                             href="mailto:mohamedfouda1701@gmail.com"
                                             className="text-white me-4 text-decoration-none"
                                         >
-                                            <i className="fa-solid fa-envelope" />
+                                            <img src="../../image/envelope-solid-full.svg" alt="" loading='lazy' />
                                         </a>
                                     </div>
                                 </div>

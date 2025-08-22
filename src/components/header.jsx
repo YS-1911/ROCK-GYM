@@ -11,15 +11,15 @@ const Header = () => {
                         <div className="header_text text-center ">
                             <h1
                                 className="mb-2"
-                                data-aos="fade-left"
-                                data-aos-duration="1000"
+                                data-aos="fade-up"
+                                
                             >
                                 Rock Gym
                             </h1>
                             <h2
                                 className="mb-4 my-2"
-                                data-aos="fade-left"
-                                data-aos-duration="2000"
+                                data-aos="fade-up"
+                                
                             >
                                 تجربة تدريبية مميزة تجمع بين الأداء الرياضي العالي والراحة في
                                 بيئة محفزة.
@@ -28,7 +28,7 @@ const Header = () => {
                                 <p
                                     className="text-center"
                                     data-aos="fade-left"
-                                    data-aos-duration="3000"
+                                    
                                 >
                                     اكتشف صالة جيم متكاملة تجمع بين أحدث الأجهزة الرياضية وأفضل
                                     التجهيزات لتجربة تمرين لا مثيل لها. مع مساحات واسعة ومعدات
@@ -104,6 +104,7 @@ const Header = () => {
                         className="home-hero_graphic is-top-left"
                         alt=""
                         data-aos="fade-up"
+                        loading='lazy'
                     />
                 </div>
             </section>

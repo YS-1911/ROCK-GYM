@@ -18,7 +18,7 @@ const Footer = () => {
                                 <h6 className="text-uppercase fw-bold text-center">
                                     <Link className="navbar-brand fw-bold me-auto " to="/">
                                         {" "}
-                                        ROCK GYM <img src="image/logo.png" alt="" />
+                                        ROCK GYM <img src="image/logo.webp" alt="" />
                                     </Link>
                                 </h6>
                                 <hr
@@ -38,25 +38,25 @@ const Footer = () => {
                                         href="https://www.facebook.com/profile.php?id=100068888802339"
                                         className="text-white  text-decoration-none"
                                     >
-                                        <i className="fab fa-facebook-f" />
+                                    <img src="../../image/facebook-f-brands-solid-full.svg" loading='lazy' alt="" />
                                     </a>
                                     <a
                                         href="https://www.instagram.com/mohmed.fouda9358?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                                         className="text-white me-4 text-decoration-none"
                                     >
-                                        <i className="fab fa-instagram" />
+                                    <img src="../../image/instagram-brands-solid-full.svg" alt="" loading='lazy' />
                                     </a>
                                     <a
                                         href="https://wa.me/+201090319905"
                                         className="text-white me-4 text-decoration-none"
                                     >
-                                        <i className="fab fa-whatsapp" />
+                                        <img src="../../image/whatsapp-brands-solid-full.svg" alt=""  loading='lazy'/>
                                     </a>
                                     <a
                                         href="mailto:mohamedfouda1701@gmail.com"
                                         className="text-white me-4 text-decoration-none"
                                     >
-                                        <i className="fa-solid fa-envelope" />
+                                    <img src="../../image/envelope-solid-full.svg" alt=""  loading='lazy'/>
                                     </a>
                                 </div>
                             </div>

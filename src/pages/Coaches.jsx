@@ -15,9 +15,9 @@ const Coaches = () => {
     const [openFouda, setOpenFouda] = useState(false);
     const [indexFouda, setIndexFouda] = useState(0);
     const certificateImages = [
-        '../../image/certi-mohamed-2.jpg',
-        '../../image/certi-mohamed-1.jpg',
-        '../../image/certi-mohamed-3.jpg',
+        '../../image/certi-mohamed-2.webp',
+        '../../image/certi-mohamed-1.webp',
+        '../../image/certi-mohamed-3.webp',
 
     ];
 
@@ -25,11 +25,11 @@ const Coaches = () => {
     const [openMariam, setOpenMariam] = useState(false);
     const [indexMariam, setIndexMariam] = useState(0);
     const certificateImages2 = [
-        '../../image/certi-mariam-1.jpg',
-        '../../image/certi-mariam-2.jpg',
-        '../../image/certi-mariam-3.jpg',
-        '../../image/certi-mariam-4.jpg',
-        '../../image/certi-mariam-5.jpg',
+        '../../image/certi-mariam-1.webp',
+        '../../image/certi-mariam-2.webp',
+        '../../image/certi-mariam-3.webp',
+        '../../image/certi-mariam-4.webp',
+        '../../image/certi-mariam-5.webp',
     ];
 
     return (
@@ -139,25 +139,25 @@ const Coaches = () => {
                                                     href="https://www.facebook.com/profile.php?id=100003725517561"
                                                     className="text-white text-decoration-none"
                                                 >
-                                                    <i className="fab fa-facebook-f" />
+                                                    <img src="../../image/facebook-f-brands-solid-full.svg" alt="" loading="lazy" />
                                                 </a>
                                                 <a
                                                     href="https://www.instagram.com/mohmed.fouda9358"
                                                     className="text-white me-4 text-decoration-none"
                                                 >
-                                                    <i className="fab fa-instagram" />
+                                                   <img src="../../image/instagram-brands-solid-full.svg" loading="lazy" alt="" />
                                                 </a>
                                                 <a
                                                     href="https://wa.me/+201090319905"
                                                     className="text-white me-4 text-decoration-none"
                                                 >
-                                                    <i className="fab fa-whatsapp" />
+                                                   <img src="../../image/whatsapp-brands-solid-full.svg" alt="" loading="lazy" />
                                                 </a>
                                                 <a
                                                     href="mailto:mohamedfouda1701@gmail.com"
                                                     className="text-white me-4 text-decoration-none"
                                                 >
-                                                    <i className="fa-solid fa-envelope" />
+                                                    <img src="../../image/envelope-solid-full.svg" alt="" loading="lazy" />
                                                 </a>
                                             </div>
                                         </div>
@@ -166,7 +166,7 @@ const Coaches = () => {
                                 <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center order-1 order-lg-2 order-md-2">
                                     <div className="d-flex justify-content-center align-items-center">
                                         <img
-                                            src="../../image/coache-mohamed.jpg"
+                                            src="../../image/coache-mohamed.webp"
                                             alt="Coach Mohamed Ahmed Foda portrait"
                                             className="img-fluid img_coaches"
                                             loading="lazy"
@@ -184,7 +184,7 @@ const Coaches = () => {
                                 <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
                                     <div className="d-flex justify-content-center align-items-center ms-lg-auto">
                                         <img
-                                            src="../../image/d-mariam.jpg"
+                                            src="../../image/d-mariam.webp"
                                             alt="Coach Mariam Atef portrait"
                                             className="img-fluid img_coaches"
                                             loading="lazy"
@@ -246,14 +246,14 @@ const Coaches = () => {
                                                     href="https://www.facebook.com/share/12HWjH8AdE8/"
                                                     className="text-white text-decoration-none"
                                                 >
-                                                    <i className="fab fa-facebook-f" />
+                                                   <img src="../../image/facebook-f-brands-solid-full.svg" alt="" loading="lazy" />
                                                 </a>
 
                                                 <a
                                                     href="https://wa.me/message/2RJPQSUBXWX3M1"
                                                     className="text-white me-4 text-decoration-none"
                                                 >
-                                                    <i className="fab fa-whatsapp" />
+                                                <img src="../../image/whatsapp-brands-solid-full.svg" alt="" />
                                                 </a>
 
                                             </div>

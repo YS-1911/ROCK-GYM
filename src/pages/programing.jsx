@@ -83,17 +83,17 @@ const Programing = () => {
                                         <div className="include ">
                                             <h5>يشمل:</h5>
                                             <ul className="list-unstyled">
-                                                <li>
-                                                    <i className="fa-solid fa-check" /> 13 حصه
+                                                <li >
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/>13 حصه
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" /> 3 حصص في الاسبوع
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/> 3 حصص في الاسبوع
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" /> 1 حصه في اليوم
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/> 1 حصه في اليوم
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" />
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/>
                                                     نظام تمرين تحت اشراف المدرب
                                                 </li>
                                             </ul>
@@ -128,24 +128,24 @@ const Programing = () => {
                                         <h5>يشمل:</h5>
                                         <ul className="list-unstyled">
                                             <li>
-                                                <i className="fa-solid fa-check" /> 26 حصه
+                                                <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/> 26 حصه
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" /> 6 حصص في الاسبوع
+                                                <img src="../../image/check-solid-full.svg" alt=""loading="lazy" /> 6 حصص في الاسبوع
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" /> 1 حصه في اليوم
+                                                <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/> 1 حصه في اليوم
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" />
+                                                <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/>
                                                 نظام تمرين تحت اشراف المدرب
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" />
+                                                <img src="../../image/check-solid-full.svg" alt=""loading="lazy" />
                                                 تطور اسرع{" "}
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" />
+                                                <img src="../../image/check-solid-full.svg" alt=""loading="lazy" />
                                                 نتائج افضل
                                             </li>
                                         </ul>
@@ -181,25 +181,25 @@ const Programing = () => {
                                             <h5>يشمل:</h5>
                                             <ul className="list-unstyled">
                                                 <li>
-                                                    <i className="fa-solid fa-check" /> 13 حصه
+                                                    <img src="../../image/check-solid-full.svg" alt=""loading="lazy" /> 13 حصه
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" /> 3 حصص في الاسبوع
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/> 3 حصص في الاسبوع
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" /> 1 حصه في اليوم
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/> 1 حصه في اليوم
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" />حساب BMI
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/>حساب BMI
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" /> نظام غذائي
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy"/> نظام غذائي
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" /> متابعة نزول الوزن كل 15 يوم
+                                                    <img src="../../image/check-solid-full.svg" alt="" loading="lazy" /> متابعة نزول الوزن كل 15 يوم
                                                 </li>
                                                 <li>
-                                                    <i className="fa-solid fa-check" />
+                                                    <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/>
                                                     نظام تمرين تحت اشراف المدرب
                                                 </li>
                                             </ul>
@@ -225,7 +225,7 @@ const Programing = () => {
                                     <div className="pricing">
                                         <h2 className="my-3 price-h2 ">
                                             {" "}
-                                            400 <span>EGP</span>
+                                            500 <span>EGP</span>
                                         </h2>
                                     </div>
                                     <p>اشتراك تخسيس لمده شهر كل يوم باجمالي 26 حصه </p>
@@ -234,33 +234,33 @@ const Programing = () => {
                                         <h5>يشمل:</h5>
                                         <ul className="list-unstyled">
                                             <li>
-                                                <i className="fa-solid fa-check" /> 26 حصه
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/> 26 حصه
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" /> 6 حصص في الاسبوع
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/> 6 حصص في الاسبوع
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" /> 1 حصه في اليوم
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/> 1 حصه في اليوم
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" />حساب BMI
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/>حساب BMI
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" /> نظام غذائي
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/> نظام غذائي
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" /> متابعة نزول الوزن كل 15 يوم
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/> متابعة نزول الوزن كل 15 يوم
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" />
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/>
                                                 نظام تمرين تحت اشراف المدرب
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" />
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/>
                                                 تطور اسرع{" "}
                                             </li>
                                             <li>
-                                                <i className="fa-solid fa-check" />
+                                                <img src="../../image/check-solid-full.svg" alt=""  loading="lazy"/>
                                                 نتائج افضل
                                             </li>
                                         </ul>

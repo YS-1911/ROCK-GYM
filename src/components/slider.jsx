@@ -39,34 +39,34 @@ const Slider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src="../../image/photo_glutes.jpg" className="img-fluid" alt="Slide 4" loading="lazy" />
+                    <img src="../../image/photo_glutes.webp" className="img-fluid" alt="Slide 4" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/photo_madad.jpg" className="img-fluid" alt="Slide 3" loading="lazy" />
+                    <img src="../../image/photo_madad.webp" className="img-fluid" alt="Slide 3" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/dambles.jpg" className="img-fluid" alt="Slide 1" loading="lazy" />
+                    <img src="../../image/dambles.webp" className="img-fluid" alt="Slide 1" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/photo_shoulder.jpg" className="img-fluid" alt="Slide 2" loading="lazy" />
+                    <img src="../../image/photo_shoulder.webp" className="img-fluid" alt="Slide 2" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/t-bar.jpg" className="img-fluid" alt="Slide 4" loading="lazy" />
+                    <img src="../../image/t-bar.webp" className="img-fluid" alt="Slide 4" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/squate.jpg" className="img-fluid" alt="Slide 4" loading="lazy" />
+                    <img src="../../image/squate.webp" className="img-fluid" alt="Slide 4" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/push-bench.jpg" className="img-fluid" alt="Slide 4" loading="lazy" />
+                    <img src="../../image/push-bench.webp" className="img-fluid" alt="Slide 4" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/push-leg.jpg" className="img-fluid" alt="Slide 4" loading="lazy" />
+                    <img src="../../image/push-leg.webp" className="img-fluid" alt="Slide 4" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/buterfly.jpg" className="img-fluid" alt="Slide 4" loading="lazy" />
+                    <img src="../../image/buterfly.webp" className="img-fluid" alt="Slide 4" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="../../image/glutes2.jpg" className="img-fluid" alt="Slide 4" loading="lazy" />
+                    <img src="../../image/glutes2.webp" className="img-fluid" alt="Slide 4" loading="lazy" />
                 </SwiperSlide>
 
             </Swiper>

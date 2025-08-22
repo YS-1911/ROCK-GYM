@@ -28,7 +28,7 @@ const Customers = () => {
                                 </h3>
                                 <div className="image_cus d-flex justify-content-center align-items-center mt-3">
                                     <img
-                                        src="image/jooo.jpg"
+                                        src="image/jooo.webp"
                                         alt=""
                                         loading="lazy"
                                         className="img-fluid mx-2"
@@ -47,7 +47,7 @@ const Customers = () => {
                                 </h3>
                                 <div className="image_cus d-flex justify-content-center align-items-center mt-3">
                                     <img
-                                        src="image/mohamedislam.png"
+                                        src="image/mohamedislam.webp"
                                         alt=""
                                         loading="lazy"
                                         className="img-fluid mx-2"

@@ -9,7 +9,7 @@ const Nav = () => {
             <nav className="navbar navbar-expand-lg custom-navbar py-3 px-1 fixed-top">
                 <div className="container-fluid ">
                     <NavLink className="navbar-brand fw-bold me-auto " to="/">
-                        <img src="image/logo.png" alt="" /> Rock
+                        <img src="image/logo.webp" alt="" /> Rock
                     </NavLink>
                     <button
                         className="navbar-toggler"
@@ -21,7 +21,7 @@ const Nav = () => {
                         aria-label="تبديل التنقل"
                     >
                         <span className="">
-                            <i className="fa-solid fa-bars" />
+                        <img src="../../image/bars-solid-full.svg" alt="" />
                         </span>
                     </button>
                     <div

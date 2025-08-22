@@ -33,7 +33,7 @@
 
 .navbar-brand img {
     width: 40px;
-    height: auto;
+    height: 25px ;
 }
 
 .nav-item .nav-link {
@@ -81,6 +81,8 @@
 
 }
 
-.navbar-toggler span {
-    color: var(--color--accent) !important;
+.navbar-toggler span img {
+    
+    width: 25px;
+    height: 25px;
 }

@@ -23,6 +23,10 @@
 border: 1px solid var(--color--brand-8);
     ;
 }
+.social_media a img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 .social_media a:hover {
     border: 1px solid var(--color--brand);
     background-color: var(--color--brand-8);

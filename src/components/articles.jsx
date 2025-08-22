@@ -72,7 +72,7 @@ const articles = [
         id: 2,
         category: "nutrition",
         title: "التغذية بشكل عام",
-        image: "image/food2.jpg",
+        image: "image/food2.webp",
         shortText: "التغذية السليمة تُعد حجر الأساس لصحة الجسم والعقل. ويجب أن تكون الوجبات اليومية متوازنة",
         modalid: "articleModal2",
         modalContent: [
@@ -161,7 +161,7 @@ const articles = [
         id: 4,
         category: "nutrition",
         title: "تعريف التغذية السليمة",
-        image: "image/food.jpg",
+        image: "image/food.webp",
         shortText: "التغذية السليمة تُعد حجر الأساس لصحة الجسم والعقل. ويجب أن تكون الوجبات اليومية متوازنة",
         modalid: "articleModal4",
         modalContent: [
@@ -219,7 +219,7 @@ const articles = [
         id: 5,
         category: "sport",
         title: "أنظمة تمرين رفع الأثقال",
-        image: "image/sport2.png",
+        image: "image/sport2.webp",
         shortText: "تمارين رفع الأثقال مش بس لبناء العضلات، كمان بتقوي العظام، المفاصل، وبتحسن التمثيل الغذائي.",
         modalid: "articleModalhealth1",
         modalContent: [
@@ -281,7 +281,7 @@ const articles = [
         id: 6,
         category: "nutrition",
         title: "البروتين",
-        image: "image/food3.jpg",
+        image: "image/food3.webp",
         shortText: "عنصر البناء الأساسي لجميع خلايا الجسم. زي الشعر والاظافر وخصوصا الألياف العضلية.",
         modalid: "articleModal1nutrition2",
         modalContent: [
@@ -353,7 +353,7 @@ const articles = [
         id: 7,
         category: "nutrition",
         title: "الدهون",
-        image: "image/food4.jpg",
+        image: "image/food4.webp",
         shortText: "الدهون هي إسترات مكونة من بعض الأحماض الدهنية مع الجلسرين، وتعرف باسم الجليسريدات",
         modalid: "articleModal1nutrition3",
         modalContent: [
@@ -431,7 +431,7 @@ const articles = [
         id: 8,
         category: "sport",
         title: "الكارديو وأهميته",
-        image: "image/sport1.jpg",
+        image: "image/sport1.webp",
         shortText: "الكارديو هو تمارين قلبية تنفسية تعمل على رفع معدل ضربات القلب وتحسين كفاءة الجهاز القلبي الرئوي",
         modalid: "articleModalhealth3",
         modalContent: [
@@ -493,7 +493,7 @@ const articles = [
         id: 9,
         category: "nutrition",
         title: "الكربوهيدرات",
-        image: "image/food5.jpg",
+        image: "image/food5.webp",
         shortText: "تعتبر المصدر الأساسي للطاقه المطلوبه للجسم. وهي عباره عن جزيئات سكريه متسلسله.",
         modalid: "articleModal1nutrition4",
         modalContent: [
@@ -566,7 +566,7 @@ const articles = [
         id: 10,
         category: "nutrition",
         title: "السعرات الحرارية",
-        image: "image/food66.jpg",
+        image: "image/food66.webp",
         shortText: "تعتبر المصدر الأساسي للطاقه المطلوبه للجسم. وهي عباره عن جزيئات سكريه متسلسله.",
         modalid: "articleModal1nutrition5",
         modalContent: [
@@ -650,7 +650,7 @@ const articles = [
         id: 11,
         category: "health",
         title: "النوم وتأثيره على الصحة",
-        image: "image/health1.jpg",
+        image: "image/health1.webp",
         shortText: "النوم الكافي ضروري جداً للحفاظ على صحة الجسم والعقل. قلة النوم بتؤدي إلى ضعف المناعة وزيادة الوزن.",
         modalid: "articleModalLabehealth1",
         modalContent: [
@@ -680,7 +680,7 @@ const articles = [
         id: 12,
         category: "health",
         title: "أهمية شرب المياه لصحتك",
-        image: "image/health2.jpg",
+        image: "image/health2.webp",
         shortText: "المياه عنصر أساسي في كل وظائف الجسم! من تنظيم درجة الحرارة، للهضم، لطرد السموم.",
         modalid: "articleModalLabehealth2",
         modalContent: [

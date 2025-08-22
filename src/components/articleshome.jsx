@@ -70,6 +70,7 @@ const Articleshome = () => {
                                                 src="image/67b1e5f7871bca51e8c59878_blog-5.avif.png"
                                                 className="img-fluid"
                                                 alt=""
+                                                loading='lazy'
                                             />
                                             <div className="d-flex align-items-center mt-3">
                                                 <div
@@ -213,7 +214,7 @@ const Articleshome = () => {
                             <div className="card_main_article">
                                 <div className="card" style={{ width: "100%" }}>
                                     <img
-                                        src="image/food2.jpg"
+                                        src="image/food2.webp"
                                         className="card-img-top "
                                         alt="..."
                                         loading="lazy"
@@ -259,9 +260,10 @@ const Articleshome = () => {
                                         <div className="modal-body">
                                             <p>
                                                 <img
-                                                    src="image/food2.jpg"
+                                                    src="image/food2.webp"
                                                     className="w-100 img-fluid"
                                                     alt=""
+                                                    loading='lazy'
                                                 />
                                             </p>
 
@@ -411,6 +413,7 @@ const Articleshome = () => {
                                                 src="image/1.png"
                                                 className="w-100 mb-3 "
                                                 alt=""
+                                                loading='lazy'
                                             />
                                             <p></p>
                                             <div className="d-flex align-items-center mt-3">

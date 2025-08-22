@@ -56,6 +56,10 @@ h2 {
     font-weight: 400;
     font-size: large;
 }
+.feater_headerd img {
+    width: 25px;
+    height: 25px;
+}
 
 .btn1 {
     border: 1px solid var(--color--brand);
@@ -240,9 +244,13 @@ h5,
     justify-content: center;
     align-items: center;
     width: 4rem;
+   
     display: flex;
 }
-
+.icon_benefits img {
+    width: 2rem;
+    height: 2rem;
+}
 .title_benefits_item h4 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -293,6 +301,11 @@ h5,
     border: 1px solid var(--color--accent-16);
     border-radius: var(--_size---radius--round);
     background-color: var(--color--accent-8);
+}
+.img_how_work img {
+    width: 24px;
+    height: 24px;
+    border-radius: var(--_size---radius--medium);
 }
 .image_how_works video {
     width: 100%;
