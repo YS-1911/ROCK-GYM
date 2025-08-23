@@ -27,7 +27,7 @@ const TimeWork = () => {
                                 <div className="title_benefits_item">
                                     <h4 className="text-center my-3">فترة الرجال</h4>
                                     <p className="text-center">
-                                        يوميًا من <strong>5:00 عصرا</strong> حتى <strong>11:30 مساءً</strong><br />
+                                        يوميًا من <strong>5:00 عصرا</strong> حتى <strong>12:30 مساءً</strong><br />
                                         استمتع بتجهيزات حديثة وأجواء محفزة للتمرين. <br />
                                         مع مساحات واسعة ومعدات متطورة<br />
                                         بيئة رياضية مريحة وممتعه مخصصة للرجال فقط.
