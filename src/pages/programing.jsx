@@ -75,7 +75,7 @@ const Programing = () => {
                                         <div className="pricing">
                                             <h2 className="my-3 price-h2 ">
                                                 {" "}
-                                                200 <span>EGP</span>
+                                                250 <span>EGP</span>
                                             </h2>
                                         </div>
                                         <p>اشتراك فتنس لمده شهر يوم و يوم باجمالي 13 حصه </p>
@@ -119,7 +119,7 @@ const Programing = () => {
                                     <div className="pricing">
                                         <h2 className="my-3 price-h2 ">
                                             {" "}
-                                            250 <span>EGP</span>
+                                            300  <span>EGP</span>
                                         </h2>
                                     </div>
                                     <p>اشتراك فتنس لمده شهر كل يوم باجمالي 26 حصه </p>
@@ -172,7 +172,7 @@ const Programing = () => {
                                         </div>
                                         <div className="pricing">
                                             <h2 className="my-3 price-h2 ">
-                                                300 <span>EGP</span>
+                                                400  <span>EGP</span>
                                             </h2>
                                         </div>
                                         <p>اشتراك تخسيس لمده شهر يوم و يوم باجمالي 13 حصه </p>
@@ -225,7 +225,7 @@ const Programing = () => {
                                     <div className="pricing">
                                         <h2 className="my-3 price-h2 ">
                                             {" "}
-                                            500 <span>EGP</span>
+                                            600 <span>EGP</span>
                                         </h2>
                                     </div>
                                     <p>اشتراك تخسيس لمده شهر كل يوم باجمالي 26 حصه </p>
